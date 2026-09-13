@@ -1638,12 +1638,14 @@ class MaskDialog(FormDialog):
         win_box = QGroupBox('Limit to Area (cell-local coords)')
         wv = QVBoxLayout(win_box)
         wv.setContentsMargins(6, 4, 6, 4)
-        self._win_enable = QCheckBox('Only use geometry inside this window — lets a '
-                                      'huge cell (e.g. a full reticle) be used as a '
-                                      'mask by pulling just a sub-area through its '
-                                      'hierarchy instead of flattening everything.')
-        self._win_enable.setWordWrap(True)
+        self._win_enable = QCheckBox('Only use geometry inside this window')
         wv.addWidget(self._win_enable)
+        win_hint = QLabel('Lets a huge cell (e.g. a full reticle) be used as a mask '
+                           'by pulling just a sub-area through its hierarchy instead '
+                           'of flattening everything.')
+        win_hint.setWordWrap(True)
+        win_hint.setStyleSheet('color: #888888; font-size: 10px;')
+        wv.addWidget(win_hint)
         def _spin() -> QDoubleSpinBox:
             w = QDoubleSpinBox(); w.setRange(-1e6, 1e6); w.setDecimals(4)
             return w
