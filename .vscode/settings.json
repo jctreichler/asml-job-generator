@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": "/home/john/Python/venq/bin/python",
+  "python.analysis.extraPaths": ["${workspaceFolder}"],
+  "python.terminal.activateEnvironment": true,
+  "python-envs.defaultEnvManager": "ms-python.python:system"
+}
