@@ -1,0 +1,660 @@
+{
+  "cell": {
+    "wafer_w": 0,
+    "cell_x": 22.0,
+    "cell_y": 22.0,
+    "round_edge": 2.0,
+    "flat_edge": 0.0,
+    "edge_excl": 1.0,
+    "cover_mode": "W",
+    "placement_mode": "O",
+    "prealign_method": "STANDARD",
+    "combine_zero_first": true,
+    "output_name": "output",
+    "dies_x": 1,
+    "dies_y": 1,
+    "min_dies": 0,
+    "pm_reticle": "4544020*"
+  },
+  "masks": [
+    {
+      "id": "lens",
+      "bar_code": "cnf*",
+      "gds_file": "/home/john/Python/ASMLens.gds",
+      "cell_name": "top",
+      "sel_layers": [
+        2
+      ]
+    },
+    {
+      "id": "UTIL",
+      "bar_code": "CNF*",
+      "gds_file": "/home/john/Python/UtilCopy.gds",
+      "cell_name": "top",
+      "sel_layers": [
+        1
+      ],
+      "window": null
+    }
+  ],
+  "images": [
+    {
+      "id": "outer",
+      "mask_id": "lens",
+      "size_x": 12.0,
+      "size_y": 27.0,
+      "shift_x": -3.0,
+      "shift_y": 0.0,
+      "origin_x": 3.0,
+      "origin_y": 33.4
+    },
+    {
+      "id": "mid",
+      "mask_id": "lens",
+      "size_x": 6.0,
+      "size_y": 18.0,
+      "shift_x": 7.0,
+      "shift_y": -4.0,
+      "origin_x": 4.0,
+      "origin_y": 8.0
+    },
+    {
+      "id": "inner",
+      "mask_id": "lens",
+      "size_x": 7.0,
+      "size_y": 7.0,
+      "shift_x": 7.5,
+      "shift_y": 9.4,
+      "origin_x": 7.5,
+      "origin_y": 9.4
+    },
+    {
+      "id": "m0",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": -10.7,
+      "shift_y": -10.7,
+      "origin_x": -10.7,
+      "origin_y": -10.7
+    },
+    {
+      "id": "m15",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": -9.2,
+      "shift_y": -10.7,
+      "origin_x": -9.2,
+      "origin_y": -10.7
+    },
+    {
+      "id": "m30",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": -7.7,
+      "shift_y": -10.7,
+      "origin_x": -7.7,
+      "origin_y": -10.7
+    },
+    {
+      "id": "m45",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": -6.2,
+      "shift_y": -10.7,
+      "origin_x": -6.2,
+      "origin_y": -10.7
+    },
+    {
+      "id": "m60",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": -4.7,
+      "shift_y": -10.7,
+      "origin_x": -4.7,
+      "origin_y": -10.7
+    },
+    {
+      "id": "m75",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": -3.2,
+      "shift_y": -10.7,
+      "origin_x": -3.2,
+      "origin_y": -10.7
+    },
+    {
+      "id": "m90",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": -1.7,
+      "shift_y": -10.7,
+      "origin_x": -1.7,
+      "origin_y": -10.7
+    },
+    {
+      "id": "m105",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": -0.2,
+      "shift_y": -10.7,
+      "origin_x": -0.2,
+      "origin_y": -10.7
+    },
+    {
+      "id": "m120",
+      "mask_id": "UTIL",
+      "size_x": 0.5,
+      "size_y": 0.5,
+      "shift_x": 1.3,
+      "shift_y": -10.7,
+      "origin_x": 1.3,
+      "origin_y": -10.7
+    }
+  ],
+  "layers": [
+    {
+      "id": "1",
+      "rotation": 0.0,
+      "na": 0.57,
+      "sigma_in": 0.0,
+      "sigma_out": 0.5,
+      "illume": "Conventional"
+    },
+    {
+      "id": "2",
+      "rotation": 15.0,
+      "na": 0.57,
+      "sigma_in": 0.0,
+      "sigma_out": 0.5,
+      "illume": "Conventional"
+    },
+    {
+      "id": "3",
+      "rotation": 30.0,
+      "na": 0.57,
+      "sigma_in": 0.0,
+      "sigma_out": 0.5,
+      "illume": "Conventional"
+    },
+    {
+      "id": "4",
+      "rotation": 45.0,
+      "na": 0.57,
+      "sigma_in": 0.0,
+      "sigma_out": 0.5,
+      "illume": "Default"
+    },
+    {
+      "id": "5",
+      "rotation": 60.0,
+      "na": 0.57,
+      "sigma_in": 0.0,
+      "sigma_out": 0.5,
+      "illume": "Default"
+    },
+    {
+      "id": "6",
+      "rotation": 75.0,
+      "na": 0.57,
+      "sigma_in": 0.0,
+      "sigma_out": 0.5,
+      "illume": "Default"
+    }
+  ],
+  "marks": [
+    {
+      "id": "1",
+      "image_id": "PM (generated)",
+      "x": 47.5,
+      "y": 0.0
+    },
+    {
+      "id": "2",
+      "image_id": "PM (generated)",
+      "x": -47.5,
+      "y": 0.0
+    },
+    {
+      "id": "3",
+      "image_id": "PM (generated)",
+      "x": 0.0,
+      "y": 47.5
+    },
+    {
+      "id": "4",
+      "image_id": "PM (generated)",
+      "x": 0.0,
+      "y": -47.5
+    }
+  ],
+  "alignments": [
+    {
+      "name": "tt",
+      "required": 4,
+      "mark_ids": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "exposures": [
+    {
+      "layer_id": "1",
+      "image_id": "outer",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "2",
+      "image_id": "outer",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "3",
+      "image_id": "outer",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "mid",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "2",
+      "image_id": "mid",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "3",
+      "image_id": "mid",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "inner",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "4",
+      "image_id": "outer",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "4",
+      "image_id": "mid",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "m15",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "m30",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "m45",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "m60",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "m75",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "m90",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "5",
+      "image_id": "outer",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "5",
+      "image_id": "mid",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "6",
+      "image_id": "outer",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "6",
+      "image_id": "mid",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "m105",
+      "dose": 20.0,
+      "focus": 0.0
+    },
+    {
+      "layer_id": "1",
+      "image_id": "m120",
+      "dose": 20.0,
+      "focus": 0.0
+    }
+  ],
+  "pattern_mode": {
+    "outer": "grid",
+    "mid": "grid",
+    "inner": "grid",
+    "m15": "python",
+    "m30": "python",
+    "m45": "python",
+    "m60": "python",
+    "m75": "python",
+    "m90": "python",
+    "m105": "python",
+    "m120": "python"
+  },
+  "pattern_manual": {},
+  "pattern_code": {
+    "outer": "step_x = 22.0000\nstep_y = 22.0000\nr      = 50.0000\nexcl   = 3.0000\nflat_y = -47.2857\n\nn_x = int(r / step_x) + 2\nn_y = int(r / step_y) + 2\nresult = []\nfor i in range(-n_x, n_x + 1):\n    for j in range(-n_y, n_y + 1):\n        x = i * step_x\n        y = j * step_y\n        if math.sqrt(x*x + y*y) + excl <= r and y >= flat_y + excl:\n            result.append((x, y))\n",
+    "m15": "r = 47.5\npoints=[]\ndelAng = 15\nfor a in range(4):\n\tpoints.append([r * math.cos((a/2 + delAng/180) * math.pi), r * math.sin((a/2 + delAng/180) * math.pi)])",
+    "m30": "r = 47.5\npoints=[]\ndelAng = 30\nfor a in range(4):\n\tpoints.append([r * math.cos((a/2 + delAng/180) * math.pi), r * math.sin((a/2 + delAng/180) * math.pi)])",
+    "m45": "r = 47.5\npoints=[]\ndelAng = 45\nfor a in range(4):\n\tpoints.append([r * math.cos((a/2 + delAng/180) * math.pi), r * math.sin((a/2 + delAng/180) * math.pi)])\n",
+    "m60": "r = 47.5\npoints=[]\ndelAng = 60\nfor a in range(4):\n\tpoints.append([r * math.cos((a/2 + delAng/180) * math.pi), r * math.sin((a/2 + delAng/180) * math.pi)])\n",
+    "m75": "r = 47.5\npoints=[]\ndelAng = 75\nfor a in range(4):\n\tpoints.append([r * math.cos((a/2 + delAng/180) * math.pi), r * math.sin((a/2 + delAng/180) * math.pi)])\n",
+    "m90": "r = 47.5\npoints=[]\ndelAng = 10\nfor a in range(4):\n\tpoints.append([r * math.cos((a/2 + delAng/180) * math.pi), r * math.sin((a/2 + delAng/180) * math.pi)])\n",
+    "m105": "r = 47.5\npoints=[]\ndelAng = 25\nfor a in range(4):\n\tpoints.append([r * math.cos((a/2 + delAng/180) * math.pi), r * math.sin((a/2 + delAng/180) * math.pi)])\n",
+    "m120": "r = 47.5\npoints=[]\ndelAng = 40\nfor a in range(4):\n\tpoints.append([r * math.cos((a/2 + delAng/180) * math.pi), r * math.sin((a/2 + delAng/180) * math.pi)])\n"
+  },
+  "patterns": {
+    "outer": [
+      {
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mid": [
+      {
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "inner": [
+      {
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "m15": [
+      {
+        "x": 45.88147674873075,
+        "y": 12.293904642369736
+      },
+      {
+        "x": -12.293904642369741,
+        "y": 45.88147674873075
+      },
+      {
+        "x": -45.88147674873075,
+        "y": -12.293904642369716
+      },
+      {
+        "x": 12.293904642369714,
+        "y": -45.88147674873075
+      }
+    ],
+    "m30": [
+      {
+        "x": 41.13620667976084,
+        "y": 23.749999999999996
+      },
+      {
+        "x": -23.74999999999999,
+        "y": 41.13620667976084
+      },
+      {
+        "x": -41.13620667976083,
+        "y": -23.750000000000004
+      },
+      {
+        "x": 23.750000000000004,
+        "y": -41.13620667976083
+      }
+    ],
+    "m45": [
+      {
+        "x": 33.58757210636101,
+        "y": 33.587572106361
+      },
+      {
+        "x": -33.587572106361,
+        "y": 33.58757210636101
+      },
+      {
+        "x": -33.587572106361016,
+        "y": -33.587572106361
+      },
+      {
+        "x": 33.587572106361,
+        "y": -33.587572106361016
+      }
+    ],
+    "m60": [
+      {
+        "x": 23.750000000000004,
+        "y": 41.13620667976083
+      },
+      {
+        "x": -41.136206679760825,
+        "y": 23.750000000000014
+      },
+      {
+        "x": -23.75000000000002,
+        "y": -41.136206679760825
+      },
+      {
+        "x": 41.136206679760825,
+        "y": -23.75000000000002
+      }
+    ],
+    "m75": [
+      {
+        "x": 12.293904642369736,
+        "y": 45.88147674873075
+      },
+      {
+        "x": -45.88147674873075,
+        "y": 12.293904642369727
+      },
+      {
+        "x": -12.29390464236973,
+        "y": -45.88147674873075
+      },
+      {
+        "x": 45.88147674873075,
+        "y": -12.293904642369732
+      }
+    ],
+    "m90": [
+      {
+        "x": 46.77836826807988,
+        "y": 8.248288439179191
+      },
+      {
+        "x": -8.24828843917919,
+        "y": 46.77836826807988
+      },
+      {
+        "x": -46.77836826807988,
+        "y": -8.248288439179197
+      },
+      {
+        "x": 8.248288439179174,
+        "y": -46.77836826807989
+      }
+    ],
+    "m105": [
+      {
+        "x": 43.04961988424087,
+        "y": 20.074367432683225
+      },
+      {
+        "x": -20.074367432683218,
+        "y": 43.049619884240876
+      },
+      {
+        "x": -43.049619884240876,
+        "y": -20.074367432683214
+      },
+      {
+        "x": 20.074367432683193,
+        "y": -43.04961988424089
+      }
+    ],
+    "m120": [
+      {
+        "x": 36.38711104815145,
+        "y": 30.532411460110616
+      },
+      {
+        "x": -30.53241146011062,
+        "y": 36.38711104815145
+      },
+      {
+        "x": -36.38711104815145,
+        "y": -30.532411460110616
+      },
+      {
+        "x": 30.532411460110616,
+        "y": -36.38711104815146
+      }
+    ]
+  },
+  "layer_process": {
+    "1": {},
+    "2": {
+      "strategy_id": "tt",
+      "strategy_usage": "A"
+    },
+    "3": {
+      "strategy_id": "tt",
+      "strategy_usage": "A"
+    }
+  },
+  "pattern_grid": {
+    "outer": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "mid": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "inner": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "m30": [],
+    "m60": []
+  },
+  "pattern_csv_file": {
+    "inner": ""
+  },
+  "pattern_step": {
+    "outer": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "mid": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "inner": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "m15": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "m30": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "m45": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "m60": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "m75": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "m90": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "m105": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    },
+    "m120": {
+      "mode": "Cell size",
+      "x": 22.0,
+      "y": 22.0
+    }
+  }
+}
